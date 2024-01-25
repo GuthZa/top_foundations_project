@@ -12,6 +12,16 @@ body {
 
 .header {
     background-color: #1f2937;
+    /* padding: 18px 200px 100px 80px; */
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 12px 0px 72px;
 }
 
 .header-logo {
@@ -24,7 +34,28 @@ body {
 
 .top-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+/*.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-image {
+    display: flex;
+    flex-shrink: 0;
+    min-width: 400px;
+    height: auto;
+    background-color: grey;
+    
+} */
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
 }
 
 .footer {
@@ -40,7 +71,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin: 16px;
+    margin: 0;
     gap: 20px;
 }
 
