@@ -12,56 +12,29 @@ body {
 
 /* Header --------------------------------------------------- */
 
-.header {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 180px 70px;
-}
-
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: auto;
 }
 
 .top-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header-content {
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    margin-top: 90px;
+    justify-content: center;
+    gap: 0;
 }
 
 .introduction {
     display: flex;
+    max-width: 500px;
     flex-wrap: wrap;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 800;
-    color: #f9faf8;
-    margin: 0;
-}
-
-.secondary-text {
-    padding: 14px 0px;
-}
-
-.sign-up {
-    background-color: #3882f6;
-    color: #f9faf8;
-    padding: 4px 40px;
-    font-size: 24px;
-    border-radius: 10px;
-    margin-bottom: 8px;
 }
 
 .hero-image {
@@ -70,12 +43,10 @@ h1 {
     height: auto;
 }
 
-.hero-text {
-    color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
 }
 
 /* Content/Cards -------------------------------------------- */
@@ -144,7 +115,7 @@ h1 {
 
 /* Other styles ------------------------------------------- */
 
-.header-background,
+.header,
 .footer {
     background-color: #1f2937;
 }
@@ -155,7 +126,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin: 16px 0px;
+    margin: 16px;
     gap: 20px;
 }
 
