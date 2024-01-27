@@ -25,6 +25,24 @@ body {
     justify-content: space-around;
 }
 
+.header-content {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.introduction {
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    background-color: grey;
+    min-width: 400px;
+    height: auto;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 800;
