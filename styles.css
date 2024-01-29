@@ -13,8 +13,6 @@ body {
 /* Header --------------------------------------------------- */
 
 .header {
-    display: flex;
-    flex-direction: column;
     margin: 0px 180px 70px;
 }
 
@@ -56,16 +54,18 @@ h1 {
 .sign-up {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 4px 40px;
+    padding: 4px 34px;
     font-size: 24px;
     border-radius: 10px;
     margin-bottom: 8px;
 }
 
 .hero-image {
+    /* to edit upon adding image */
     background-color: grey;
     min-width: 400px;
     height: auto;
+
     display: flex;
 }
 
@@ -83,24 +83,21 @@ h1 {
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin: 24px 0 48px;
+    margin: auto;
 }
 
 .content-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 24px auto;
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
-    margin-bottom: 24px;
 }
 
 .cards {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 34px;
+    margin-bottom: 48px;
 }
 
 .card {
@@ -108,6 +105,7 @@ h1 {
 }
 
 .card img {
+    /* to edit upon adding image */
     display: flex;
     min-height: 130px;
     width: auto;
@@ -119,22 +117,29 @@ h1 {
 
 /* Quote ---------------------------------------------------- */
 
-.quote-container {
+.quote-background {
     background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 100px 240px;
 }
 
-.quote {
+.quote-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.quote,
+.quote-signature {
     font-size: 36px;
-    font-style: italic;
     color: #1f2937;
 }
 
+.quote {
+    font-style: italic;
+    font-weight: 200; 
+}
+
 .quote-signaure {
-    font-style: bold;
-    display: flex;
+    font-weight: 900;
 }
 
 /* Newsletter ----------------------------------- */
