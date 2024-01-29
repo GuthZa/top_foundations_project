@@ -1,11 +1,10 @@
 * { 
-    outline: 2px solid lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* outline: 2px solid lightcoral; */
 }
 
 body {
     margin: 0;
-    height: 100vh;
-    overflow: 0;
     display: flex;
     flex-direction: column;
 }
@@ -64,7 +63,6 @@ h1 {
     /* to edit upon adding image */
     background-color: grey;
     min-width: 400px;
-    height: auto;
 
     display: flex;
 }
@@ -82,6 +80,7 @@ h1 {
 .content {
     display: flex;
     text-align: center;
+    justify-content: center;
     flex-direction: column;
     margin: auto;
 }
@@ -95,7 +94,7 @@ h1 {
 
 .cards {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 34px;
     margin-bottom: 48px;
 }
@@ -119,12 +118,14 @@ h1 {
 
 .quote-background {
     background-color: #E5E7EB;
-    padding: 100px 240px;
 }
 
 .quote-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto;
+    max-width: 720px;
 }
 
 .quote,
@@ -134,12 +135,13 @@ h1 {
 }
 
 .quote {
-    font-style: italic;
     font-weight: 200; 
+    font-style: italic;
 }
 
 .quote-signaure {
     font-weight: 900;
+    align-self: flex-end;
 }
 
 /* Newsletter ----------------------------------- */
